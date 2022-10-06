@@ -1,0 +1,37 @@
+<html>
+    <head><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+        <link rel="stylesheet" href="index.css">
+    </head>
+    <body>
+        <div class="container">
+            <div class="home-title">
+                <h3>HOME</h3>
+                <div class="home-score">
+                    <div class="home-points-text">
+                        <h3 id="home-points">0</h3>      
+                    </div>
+                </div>
+                <div class="add-points-btn-home">
+                    <button class="hb1" onclick="hbj1()">+1</button>
+                    <button class="hb2" onclick="hbj2()">+2</button>
+                    <button class="hb3" onclick="hbj3()">+3</button>
+                </div>
+            </div>
+            <div class="away-title">
+                <h3>AWAY</h3>
+                <div class="away-score">
+                    <div class="away-points-text">
+                        <h3 id="away-points">0</h3>
+                    </div>
+                </div>
+                <div class="add-points-btn-away">
+                    <button class="ab1" onclick="abj1()">+1</button>
+                    <button class="ab2" onclick="abj2()">+2</button>
+                    <button class="ab3" onclick="abj3()">+3</button>
+                </div>
+            </div>
+            <button class="reset" onclick="reset()" style = "position:relative; left:0px; top:400px; background-color:#1B244A;">🚨<br>New Game</button>
+        </div>
+        <script src="index.js"></script>
+    </body>
+</html>
